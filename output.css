@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors */
+/* Fonts */
+.rammetto-one-regular, .reviews h3, .menu-section h3, main section div h3 {
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header Styling */
+header {
+  width: 80%;
+  background-color: white;
+  height: 10vh;
+  margin: 5px auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header nav i {
+  font-size: 34px;
+  height: 20px;
+  color: #FAA196;
+  margin-left: 20px;
+}
+header nav div a {
+  margin: 20px;
+  color: #689572;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+summary {
+  background-color: #EBC9C4;
+  padding: 17px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  margin: 0 auto;
+}
+main section {
+  width: 50%;
+  background-color: #82A289;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main section div {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 20px;
+}
+main section div h3 {
+  font-size: 40px;
+  color: white;
+}
+main section div p {
+  color: white;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main section div button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  display: block;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.side-image {
+  background-image: url(Images/hero_image.jpg);
+  background-size: cover;
+}
+
+.menu-section {
+  margin-top: 30px;
+}
+.menu-section h3 {
+  color: #FAA196;
+  font-size: 40px;
+  margin: 3px auto;
+  text-align: center;
+}
+
+.food {
+  width: 750px;
+  height: 8vh;
+  margin: 0 auto;
+  background-color: #EBC9C4;
+  justify-content: center;
+}
+
+.food-title-expand {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.food-recipe-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  width: 270px;
+  height: 340px;
+  background-color: #EBC9C4;
+  margin-top: 20px;
+  padding: 20px;
+}
+.food-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.food-card p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+.food-card i {
+  color: #689572;
+}
+
+.food-recipe-type {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+.food-recipe-type p {
+  font-size: small;
+}
+
+.reviews {
+  background-color: #FAA196;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 30px;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  font-size: xx-small;
+  padding: 0 auto;
+}
+
+.review-testimonial {
+  border: 1.5px solid white;
+  width: 40%;
+  padding: 20px;
+  height: 200px;
+  margin: 0px 30px;
+}
+.review-testimonial p {
+  font-style: italic;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.show-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.reviews h3 {
+  color: white;
+  font-size: 40px;
+  margin: 3px auto;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #689572;
+  color: white;
+  width: 100%;
+  padding: 16px;
+  font-size: 12px;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 5px 20px;
+  font-size: 20px;
+}
+
+.insta {
+  color: red;
+}
+
+/*# sourceMappingURL=output.css.map */
